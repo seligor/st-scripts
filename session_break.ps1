@@ -16,4 +16,6 @@ function GetSessionInfo()
     return $session
 }
 
+#   TODO: break all active sessions
+
 GetSessionInfo
