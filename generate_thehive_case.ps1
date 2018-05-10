@@ -19,9 +19,9 @@ $headers = @{
 
 #	HTTP body
 $body = @{
-	"title" = "$env:SEARCHRULENAME"
-	"description" = "Rule # $env:SEARCHRULEID -- $env:SEARCHRULETYPE at $env:ALERTTIME. Link: $env:DOCUMENTLINK"
-	#"description" = "$env:COMPUTERNAME"
+	"title" = "$env:FGST_SEARCH_RULE_ID"
+	"description" = "Rule # $env:FGST_SEARCH_RULE_ID -- $env:FGST_SEARCH_RULE_TYPE at $env:FGST_ALERT_TIME. Link: $env:FGST_DOCUMENT_LINK"
+	#"description" = "$env:FGST_MACHINE_DNS_NAME"
 	"severity" = $severity
 	"tlp" = $tlp
 	"tags" = "dlp","automatic"
