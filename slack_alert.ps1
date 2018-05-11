@@ -6,7 +6,7 @@
 #   First of all, you have to create a bot and get the token from https://api.slack.com/tokens
 #   Token will be as like as xoxb-xxxxxxxxxxxx-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx
 
-$token = "yuor_token"
+$token = "your_token"
 $channel = "#general"
 $botName = "SecureTower Alerts"  #   Optional parameter
 
