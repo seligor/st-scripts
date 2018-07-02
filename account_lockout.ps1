@@ -21,7 +21,7 @@ function ResolveSID($SID)
         $objSID = New-Object System.Security.Principal.SecurityIdentifier($SID) 
         $objUser = $objSID.Translate([System.Security.Principal.NTAccount])
         #   Out-File -FilePath C:\scripts\out.txt -InputObject $objUser.Value   #   Temp debug output
-        return $objUser.Value.Split("\")[-1]    #   Cause user in domain\name format — net user accept user name only
+        return $objUser.Value.Split("\")[-1]    #   Cause user in domain\name format net user accept user name only
     }
     else 
     {
