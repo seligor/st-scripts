@@ -12,7 +12,7 @@
 #    WARNING
 #   =============
 #       The result of the script execution is the account lockout, please be carefull!
-#       In case of successful execution you will get locked account an Event ID # 4725
+#       In case of successful execution you will get locked account and Event ID # 4725
 #       on Domain Controller.
 function ResolveSID($SID)
 { 
