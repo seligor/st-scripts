@@ -1,7 +1,6 @@
 import requests
 import os
 
-#searchrulename=(os.environ['FGST_SEARCH_RULE_NAME'])
 searchrulename=(os.environ['FGST_SEARCH_RULE_NAME'])
 alerttime=(os.environ['FGST_ALERT_TIME'])
 documentlink=(os.environ['FGST_DOCUMENT_LINK'])
